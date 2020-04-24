@@ -1,0 +1,141 @@
+/***************************TAG SECTION********************************/
+body {
+  margin: 0;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+h1 {
+  font-family: 'Comic Neue', cursive;
+  font-size: 3em;
+  margin: 0 auto 0 auto;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+  color: #11999E;
+}
+
+p {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+hr {
+  width: 10%;
+  border-style: dotted none none;
+  border-width: 0.44em;
+  border-color: #27496d;
+  margin: 50px auto;
+}
+
+/**************************CLASS SECTION*******************************/
+
+.intro{
+  color:#40514E;
+  width: 40%;
+  margin: 10px auto;
+  line-height: 2;
+}
+
+.description {
+  font-weight: bolder;
+  margin-top: 2em;
+}
+
+.skill-image-1 {
+  height: 130px;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-image-2 {
+  height: 130px;
+  float: right;
+  margin-left: 30px;
+}
+
+.top-container {
+  background-color: #eaf6f6;
+  padding-top: 30px;
+  margin-bottom: 0;
+}
+
+.middle-container {
+  background-color: #f7f7f7;
+  padding: 30px 0 30px 0;
+  margin: 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 30px 0 0 0;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.top-cloud {
+  position: relative;
+  top: 30px;
+  left: 300px;
+}
+
+.bottom-cloud {
+  position: relative;
+  bottom: 250px;
+  left: 100px;
+}
+
+.Mountain_Image {
+  margin: auto;
+}
+
+.footer-link {
+  color: #11999E;
+  margin: 10px 20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #EAF6F6;
+  text-decoration: underline;
+}
+
+.copyright {
+  margin-bottom: 0;
+  padding: 10px;
+  color: #EAF6F6;
+}
+
+.btn {
+	box-shadow: 0 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #11999E 5%, #408c99 100%);
+	background-color:#11999E;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Open Sans Condensed', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #3d768a;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #11999E 100%);
+	background-color:#408c99;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
